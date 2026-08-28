@@ -1,0 +1,21 @@
+.ingredients {
+}
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+
+  /* line-height: 28px; */
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111;
+}
+.ingredients-list {
+}
+.ingredients-item {
+}
+.ingredients-img {
+}
+.ingredients-type {
+}

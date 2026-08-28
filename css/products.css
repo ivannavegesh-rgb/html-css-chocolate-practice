@@ -1,0 +1,31 @@
+.products {
+}
+.products-title {
+}
+.orange {
+}
+.products-list {
+}
+.products-item {
+}
+.products-img {
+}
+.products-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  text-transform: uppercase;
+}
+.products-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+.products-price {
+  font-weight: 600;
+  text-align: center;
+}

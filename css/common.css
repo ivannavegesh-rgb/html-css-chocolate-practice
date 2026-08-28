@@ -1,0 +1,70 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+  color: #111111;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 18px; */
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.orange {
+  color: #fd9222;
+}
+.made-title,
+.ingredients-title,
+.products-title,
+.bestsellers-title,
+.review-title {
+  font-weight: 600;
+  font-size: 24px;
+
+  /* line-height: 28px; */
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.container {
+  display: block;
+  max-width: 1168px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+* {
+  box-sizing: border-box;
+}
