@@ -40,6 +40,14 @@ address {
   font-style: normal;
 }
 
+.ingredients,
+.made,
+.products,
+.bestsellers,
+.reviews {
+  padding: 60px 0;
+}
+
 .orange {
   color: #fd9222;
 }
@@ -48,6 +56,8 @@ address {
 .products-title,
 .bestsellers-title,
 .review-title {
+  max-width: 412px;
+  margin: 0 auto 50px;
   font-weight: 600;
   font-size: 24px;
 

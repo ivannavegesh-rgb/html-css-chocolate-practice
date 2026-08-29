@@ -1,4 +1,5 @@
 .ingredients {
+  padding-top: 120px;
 }
 .ingredients-title {
   font-weight: 600;
@@ -12,10 +13,38 @@
   color: #111;
 }
 .ingredients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 32px;
 }
 .ingredients-item {
+  width: calc((100% - 32px * 3) / 4);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 24px;
+  gap: 36px;
+  text-align: center;
 }
+
+.ingredients-item:nth-child(2n) {
+  border: 1px solid #fd9222;
+}
+
+.ingredients-item:nth-child(4n + 3) {
+  background: #1e1823;
+  color: #fff;
+}
+
+.ingredients-item:nth-child(4n + 1) {
+  background: #fd9222;
+  color: #fff;
+}
+
 .ingredients-img {
+  margin-bottom: 36px;
 }
+
 .ingredients-type {
+  font-weight: 600;
+  font-size: 14px;
 }
