@@ -1,14 +1,26 @@
 .bestsellers {
 }
+
+.bestsellers-wrap {
+}
+
 .bestsellers-title {
 }
 .orange {
 }
 .bestsellers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 .bestsellers-item {
+  border-radius: 16px;
+  width: 368px;
+  overflow: hidden;
+  background-color: #fff;
 }
 .bestsellers-img {
+  margin-bottom: 28px;
 }
 .bestsellers-name {
   font-weight: 600;
@@ -16,4 +28,5 @@
   line-height: 1.33;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 28px;
 }

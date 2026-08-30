@@ -27,7 +27,8 @@
 }
 
 .ingredients-item:nth-child(2n) {
-  border: 1px solid #fd9222;
+  border: 1px solid #fd922266;
+  background-color: #fff;
 }
 
 .ingredients-item:nth-child(4n + 3) {

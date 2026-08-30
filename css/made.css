@@ -1,5 +1,25 @@
 .made {
 }
+
+.made-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.made-left-side {
+  border-radius: 16px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.made-right-side {
+  border-radius: 15px;
+  padding: 32px;
+  width: 516px;
+  gap: 28px;
+  background-color: #fff;
+}
+
 .made-title {
   font-weight: 600;
   font-size: 24px;
@@ -16,12 +36,19 @@
 .made-img {
 }
 .made-subtitle {
+  max-width: 350px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
+  margin-bottom: 28px;
   color: #111;
 }
 .made-list {
+  /* 
+  display: flex;
+  flex-direction: column;
+  gap: 24px; */
 }
 .made-item {
+  margin-bottom: 24px;
 }
